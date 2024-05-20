@@ -109,11 +109,11 @@ function changeTranscript(type) {
     var officialLink = document.getElementById('officialTranscriptLink');
 
     if (type === 'unofficial') {
-        iframe.src = '/assets/PDF/Aidan Andrews Unofficial Transcript.pdf';
+        iframe.src = '/assets/PDF/Alexander Kapkin Unofficial Transcript.pdf';
         unofficialLink.classList.add('active');
         officialLink.classList.remove('active');
     } else if (type === 'official') {
-        iframe.src = 'assets/PDF/Aidan Andrews Winter Transcript.pdf';
+        iframe.src = 'assets/PDF/Alexander Kapkin Winter Transcript.pdf';
         unofficialLink.classList.remove('active');
         officialLink.classList.add('active');
     }
